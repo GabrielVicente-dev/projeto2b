@@ -28,7 +28,38 @@ namespace projeto2B.Repositorio
 
             }
         }
+        public Usuario ObterUsuario(string email)
+        {
+            using (var db = new Conexao(_connectionString))
+            {
+                var cmd = db.MySqlCommand();
+                cmd.CommandText = "SELECT * FROM Usuario WHERE Email = @Email";
+                cmd.Parameters.AddWithValue("@Email", email);
+                cmd.ExecuteNonQuery();
 
+                using (var reader = cmd.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        return new Usuario
+                        {
+                            Id = reader.GetInt32("Id"),
+                            Nome = reader.GetString("Nome"),
+                            Email = reader.GetString("Email"),
+                            Senha = reader.GetString("Senha"),
 
+                        };
+
+                    }
+
+                }
+                return null;
+            }
+        }
     }
 }
+
+
+
+
+
