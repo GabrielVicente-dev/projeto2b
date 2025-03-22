@@ -1,7 +1,16 @@
+using projeto2B.Repositorio;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//ADICIONANDO O USUARIO REPOSITORIO COMO SERVIÇO
+
+
+builder.Services.AddScoped<UsuarioRepositorio>();
+
+
 
 var app = builder.Build();
 

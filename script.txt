@@ -1,0 +1,20 @@
+-- Criando o Banco de Dados
+
+create database bdsistema;
+
+-- Usando O Bando de dados
+
+use bdsistema;
+
+-- Criando As tabelas do banco
+
+create table Usuario(
+Id int primary key auto_increment,
+Nome varchar(50),
+Email varchar (50),
+Senha varchar (50)
+)
+
+-- Consultado As tabelas do Banco
+
+select * from Usuario;
