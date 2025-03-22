@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2bmod\\Desktop\\aulacidade\\projeto2B\\",
+  "WorkspaceRootPath": "C:\\Users\\2bmod\\Desktop\\projeto2b\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91512867-E055-42A7-B5D4-BA716B743F93}|projeto2B\\projeto2B.csproj|c:\\users\\2bmod\\desktop\\aulacidade\\projeto2b\\projeto2b\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91512867-E055-42A7-B5D4-BA716B743F93}|projeto2B\\projeto2B.csproj|c:\\users\\2bmod\\desktop\\projeto2b\\projeto2b\\repositorio\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91512867-E055-42A7-B5D4-BA716B743F93}|projeto2B\\projeto2B.csproj|solutionrelative:projeto2b\\repositorio\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91512867-E055-42A7-B5D4-BA716B743F93}|projeto2B\\projeto2B.csproj|c:\\users\\2bmod\\desktop\\projeto2b\\projeto2b\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91512867-E055-42A7-B5D4-BA716B743F93}|projeto2B\\projeto2B.csproj|solutionrelative:projeto2b\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91512867-E055-42A7-B5D4-BA716B743F93}|projeto2B\\projeto2B.csproj|c:\\users\\2bmod\\desktop\\projeto2b\\projeto2b\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91512867-E055-42A7-B5D4-BA716B743F93}|projeto2B\\projeto2B.csproj|solutionrelative:projeto2b\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\2bmod\\Desktop\\projeto2b\\projeto2B\\Repositorio\\Conexao.cs",
+              "RelativeDocumentMoniker": "projeto2B\\Repositorio\\Conexao.cs",
+              "ToolTip": "C:\\Users\\2bmod\\Desktop\\projeto2b\\projeto2B\\Repositorio\\Conexao.cs",
+              "RelativeToolTip": "projeto2B\\Repositorio\\Conexao.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T00:37:44.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\2bmod\\Desktop\\projeto2b\\projeto2B\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "projeto2B\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\2bmod\\Desktop\\projeto2b\\projeto2B\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "projeto2B\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T23:18:46.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\2bmod\\Desktop\\aulacidade\\projeto2B\\projeto2B\\Models\\Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\2bmod\\Desktop\\projeto2b\\projeto2B\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "projeto2B\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\2bmod\\Desktop\\aulacidade\\projeto2B\\projeto2B\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\2bmod\\Desktop\\projeto2b\\projeto2B\\Models\\Usuario.cs",
               "RelativeToolTip": "projeto2B\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T23:45:25.649Z",
               "EditorCaption": ""
